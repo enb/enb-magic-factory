@@ -1,0 +1,40 @@
+{
+  "author": "Andrew Abramov <andrewblond@yandex.com>",
+  "name": "enb-magic-factory",
+  "version": "0.0.0",
+  "description": "ENB factory of helpers to create nodes and targets in runtime",
+  "repository": "git://github.com/enb-bem/enb-magic-factory",
+  "homepage": "https://github.com/enb-bem/enb-magic-factory",
+  "bugs": "https://github.com/enb-bem/enb-magic-factory/issues",
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/enb-bem/enb-magic-factory/blob/master/LICENSE"
+  }],
+  "contributors": [
+    {
+      "name": "Andrew Abramov",
+      "email": "andrewblond@yandex.com"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "peerDependencies": {
+    "enb": ">= 0.13.0"
+  },
+  "dependencies": {
+    "vow": "0.4.5",
+    "colors": "0.6.2"
+  },
+  "devDependencies": {
+    "enb": ">= 0.13.0",
+    "enb-validate-code": "0.0.1",
+    "jshint": "2.5.2",
+    "jscs": "1.4.5"
+  },
+  "main": "lib/magic-factory.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "jshint . && jscs -c .jscs.js ."
+  }
+}
