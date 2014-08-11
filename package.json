@@ -23,8 +23,7 @@
     "enb": ">= 0.13.0"
   },
   "dependencies": {
-    "vow": "0.4.5",
-    "colors": "0.6.2"
+    "vow": "0.4.5"
   },
   "devDependencies": {
     "enb": ">= 0.13.0",
