@@ -28,13 +28,18 @@
   },
   "devDependencies": {
     "enb": ">= 0.13.0",
+    "mocha": "1.21.4",
+    "must": "0.12.0",
     "enb-validate-code": "0.0.1",
     "jshint": "2.5.2",
-    "jscs": "1.4.5"
+    "jscs": "1.4.5",
+    "istanbul": "0.3.0"
   },
   "main": "lib/magic-factory.js",
   "scripts": {
-    "test": "npm run lint",
-    "lint": "jshint . && jscs -c .jscs.js ."
+    "test": "npm run lint && npm run unit && npm run cover",
+    "lint": "jshint . && jscs -c .jscs.js .",
+    "unit": "mocha test/**/*.test.js",
+    "cover": "istanbul cover _mocha -- ./test/**/*.test.js"
   }
 }
