@@ -160,21 +160,4 @@ describe('magic-config', function () {
 
         config.isRequiredTarget('path/to/node/deep-node/target').must.be.true();
     });
-
-    it('must return targets to build', function () {
-        var config = new MagicConfig();
-        var toBuild;
-
-        config.registerNode('path/to/node-1');
-        config.registerNode('path/to/node-2');
-        config.registerTarget('path/to/node-2/target');
-        config.registerTarget('path/to/node-3/target');
-
-        toBuild = config.toBuild();
-
-        toBuild.must.have.length(3);
-        toBuild.must.include('path/to/node-1');
-        toBuild.must.include('path/to/node-2');
-        toBuild.must.include('path/to/node-3/target');
-    });
 });
