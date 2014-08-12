@@ -160,4 +160,10 @@ describe('magic-config', function () {
 
         config.isRequiredTarget('path/to/node/deep-node/target').must.be.true();
     });
+
+    it('must detect node if required target in specified node', function () {
+        var config = new MagicConfig(['path/to/node/target']);
+
+        config.isRequiredNode('path/to/node').must.be.true();
+    });
 });
