@@ -1,7 +1,7 @@
 {
   "author": "Andrew Abramov <andrewblond@yandex.com>",
   "name": "enb-magic-factory",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "ENB factory of helpers to create nodes and targets in runtime",
   "repository": "git://github.com/enb-bem/enb-magic-factory",
   "homepage": "https://github.com/enb-bem/enb-magic-factory",
