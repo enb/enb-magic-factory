@@ -18,8 +18,8 @@ describe('magic-config', function () {
     });
 
     it('must register targets', function () {
-        var config = new MagicConfig();
-        var nodes;
+        var config = new MagicConfig(),
+            nodes;
 
         config.registerTargets(['path/to/node/target-1', 'path/to/node/target-2']);
         nodes = config.getRegisteredTargets();
@@ -46,8 +46,8 @@ describe('magic-config', function () {
     });
 
     it('must register nodes', function () {
-        var config = new MagicConfig();
-        var nodes;
+        var config = new MagicConfig(),
+            nodes;
 
         config.registerNodes(['path/to/node-1', 'path/to/node-2']);
         nodes = config.getRegisteredNodes();
@@ -72,8 +72,8 @@ describe('magic-config', function () {
     });
 
     it('must get nodes if has registered node & target', function () {
-        var config = new MagicConfig();
-        var nodes;
+        var config = new MagicConfig(),
+            nodes;
 
         config.registerNode('path/to/node-1');
         config.registerTarget('path/to/node-2/target');
