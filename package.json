@@ -23,7 +23,8 @@
     "enb": ">= 0.13.0 < 1.0.0"
   },
   "dependencies": {
-    "vow": "0.4.5"
+    "vow": "0.4.5",
+    "minimist": "1.1.0"
   },
   "devDependencies": {
     "enb": ">= 0.13.0 < 1.0.0",
