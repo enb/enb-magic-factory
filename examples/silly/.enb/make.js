@@ -2,7 +2,7 @@ var fs = require('fs');
 var path = require('path');
 
 module.exports = function (config) {
-    config.includeConfig(require.resolve('../../../lib/magic-factory'));
+    config.includeConfig(require.resolve('../../../lib/index.js'));
 
     var root = config.getRootPath();
     var factory = config.module('enb-magic-factory');

@@ -34,7 +34,7 @@
     "jscs": "1.6.2",
     "istanbul": "0.3.2"
   },
-  "main": "lib/magic-factory.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "npm run lint && npm run unit && npm run cover",
     "lint": "jshint . && jscs -c .jscs.js .",
