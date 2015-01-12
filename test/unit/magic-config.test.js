@@ -131,7 +131,20 @@ describe('magic-config', function () {
         config.isRequiredTarget(path.join('path', 'without', 'last-slash')).must.be.true();
 
         config.isRequiredTarget(path.join('path', 'with', 'last-slash', path.sep)).must.be.true();
-        config.isRequiredTarget(path.join('path', 'without', 'last-slash')).must.be.true();
+        config.isRequiredTarget(path.join('path', 'with', 'last-slash')).must.be.true();
+    });
+
+    it('must considered equal path with `.` and path without `.`', function () {
+        var config = new MagicConfig([
+            '.' + path.sep + path.join('path', 'with', 'point'),
+            path.join('path', 'without', 'point')
+        ]);
+
+        config.isRequiredTarget('.' + path.sep + path.join('path', 'without', 'point')).must.be.true();
+        config.isRequiredTarget(path.join('path', 'without', 'point')).must.be.true();
+
+        config.isRequiredTarget('.' + path.sep + path.join('path', 'with', 'point')).must.be.true();
+        config.isRequiredTarget(path.join('path', 'with', 'point')).must.be.true();
     });
 
     it('must detect required node', function () {
