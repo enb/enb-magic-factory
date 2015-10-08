@@ -19,16 +19,16 @@
     "enb": ">= 0.13.0 < 2.0.0"
   },
   "dependencies": {
-    "vow": "0.4.8",
-    "minimist": "1.1.0"
+    "vow": "0.4.11",
+    "minimist": "1.2.0"
   },
   "devDependencies": {
     "enb": ">= 0.13.0 < 2.0.0",
-    "istanbul": "0.3.5",
+    "istanbul": "0.3.22",
     "jscs": "1.10.0",
-    "jshint": "2.6.0",
-    "mocha": "2.1.0",
-    "must": "0.12.0"
+    "jshint": "2.8.0",
+    "mocha": "2.3.3",
+    "must": "0.13.1"
   },
   "main": "lib/index.js",
   "scripts": {
