@@ -3,13 +3,13 @@
   "name": "enb-magic-factory",
   "version": "0.5.0",
   "description": "ENB factory of helpers to create nodes and targets in runtime",
-  "repository": "git://github.com/enb-bem/enb-magic-factory",
-  "homepage": "https://github.com/enb-bem/enb-magic-factory",
-  "bugs": "https://github.com/enb-bem/enb-magic-factory/issues",
+  "repository": "git://github.com/enb/enb-magic-factory",
+  "homepage": "https://github.com/enb/enb-magic-factory",
+  "bugs": "https://github.com/enb/enb-magic-factory/issues",
   "licenses": [
     {
       "type": "MPL-2.0",
-      "url": "https://github.com/enb-bem/enb-magic-factory/blob/master/LICENSE.txt"
+      "url": "https://github.com/enb/enb-magic-factory/blob/master/LICENSE.txt"
     }
   ],
   "engines": {

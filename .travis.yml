@@ -3,7 +3,7 @@ node_js:
   - "0.10"
 env:
   global:
-    - GH_REF: github.com/enb-bem/enb-magic-factory.git
+    - GH_REF: github.com/enb/enb-magic-factory.git
     - ISTANBUL_COVERAGE: true
 branches:
   only:

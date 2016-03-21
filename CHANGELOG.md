@@ -65,6 +65,6 @@
 * Исправлена обработка ENB опций `noCache` и `noLog`.
 * Сборка не будет происходить для случая, когда не оказалось таргетов для сборки.
 
-[#41]: https://github.com/enb-bem/enb-magic-factory/pull/41
-[#35]: https://github.com/enb-bem/enb-magic-factory/issues/35
-[#37]: https://github.com/enb-bem/enb-magic-factory/issues/37
+[#41]: https://github.com/enb/enb-magic-factory/pull/41
+[#35]: https://github.com/enb/enb-magic-factory/issues/35
+[#37]: https://github.com/enb/enb-magic-factory/issues/37
