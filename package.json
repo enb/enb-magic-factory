@@ -6,12 +6,7 @@
   "repository": "git://github.com/enb/enb-magic-factory",
   "homepage": "https://github.com/enb/enb-magic-factory",
   "bugs": "https://github.com/enb/enb-magic-factory/issues",
-  "licenses": [
-    {
-      "type": "MPL-2.0",
-      "url": "https://github.com/enb/enb-magic-factory/blob/master/LICENSE.txt"
-    }
-  ],
+  "license": "MPL-2.0",
   "engines": {
     "node": ">= 0.10.0"
   },
