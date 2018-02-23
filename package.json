@@ -17,7 +17,7 @@
     "globby": "^8.0.1",
     "minimatch": "^3.0.4",
     "minimist": "1.2.0",
-    "vow": "0.4.11"
+    "vow": "^0.4.17"
   },
   "devDependencies": {
     "enb": ">= 0.13.0 < 2.0.0",
