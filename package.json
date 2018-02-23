@@ -6,12 +6,7 @@
   "repository": "git://github.com/enb/enb-magic-factory",
   "homepage": "https://github.com/enb/enb-magic-factory",
   "bugs": "https://github.com/enb/enb-magic-factory/issues",
-  "licenses": [
-    {
-      "type": "MPL-2.0",
-      "url": "https://github.com/enb/enb-magic-factory/blob/master/LICENSE.txt"
-    }
-  ],
+  "license": "MPL-2.0",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -19,8 +14,10 @@
     "enb": ">= 0.13.0 < 2.0.0"
   },
   "dependencies": {
-    "vow": "0.4.11",
-    "minimist": "1.2.0"
+    "globby": "^8.0.1",
+    "minimatch": "^3.0.4",
+    "minimist": "1.2.0",
+    "vow": "0.4.11"
   },
   "devDependencies": {
     "enb": ">= 0.13.0 < 2.0.0",
